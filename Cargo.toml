@@ -1,0 +1,16 @@
+[package]
+name = "ivory_kinematics_serivce"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ivory_bus = "0.1.4"
+ivory_kinematics = "0.1.8"
+log = "0.4.17"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_derive = "1.0.152"
+tokio = { version = "1.24.1", features = ["full"] }
+toml = "0.5.10"
+nalgebra = { version = "0.31.4", features = ["serde"] }
